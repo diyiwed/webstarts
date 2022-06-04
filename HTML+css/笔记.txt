@@ -1,0 +1,50 @@
+html缩写：Hyper Text Marked Language   超文本标记语言 
+
+一、字符集的意义
+    1、网页中特殊意义的字符  例如： 版权、欧元、注册商标
+    2、键盘上没有的字符
+
+
+    空格：&nbsp;
+    注册商标：&trade;
+    版权：&copy;
+
+    写法规则：
+        以&开头
+        以分号(;)结束
+
+块级元素：
+    h1-h6、div、p、ul、ol
+    <hr />:水平线
+
+标签：
+    span: 文档中的节点
+    code:代码文本
+    em: 文字倾斜（更加语义的强调）
+    i: 文字倾斜  
+        使用场景：字体图标
+    strong: 文字加粗（更加语义的强调）
+    b:文字加粗
+    laber：定义input标注
+
+
+行内块元素：
+    特点：
+        1、和其他元素都在一行显示不独占一行
+        2、高、行高以及顶部的地步的边距可修改
+        3、宽度就是它文字的宽度，可修改的
+    功能：用户加强内容显示，控制细节
+
+    元素：
+        input:定义输入控件
+            type="text"  输入框（默认）
+            type="password" 密码
+            type="checkbox" 复选框
+            type="radio"    单选框
+            type="file"     上传
+            type="button"   按钮
+            type="submit"  提交 
+            type="reset"    重置
+        textarea：  文本域
+        select:定义选择列表  ****配合option使用
+        img：定义图片
