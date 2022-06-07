@@ -1,0 +1,11 @@
+层叠样式表
+
+一、css引入方式
+    1、行内样式
+        <div style="color:red;"></div>
+    2、嵌入式
+        <style type="text/css"></style>
+    3、链接式
+        link：定义文档与外部资源的关系
+    4、导入式
+        @inport

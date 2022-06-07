@@ -48,5 +48,3 @@ html缩写：Hyper Text Marked Language   超文本标记语言
         textarea：  文本域
         select:定义选择列表  ****配合option使用
         img：定义图片
-
-        
